@@ -1,0 +1,27 @@
+{
+    "name": "mgdigi/ges-employer",
+    "autoload": {
+        "psr-4": {
+            "App\\Entity\\": "src/entity/",
+            "App\\Core\\": "app/core/",
+            "App\\Repository\\": "src/repository/",
+            "App\\Service\\": "src/service/",
+            "App\\Controller\\": "src/controller/",
+            "App\\Core\\Abstract\\": "app/core/abstract/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mgdigi",
+            "email": "gueyeprophete287@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "scripts": {
+      "database:migrate": "php migrations/Migration.php",
+      "database:seed": "php seeders/Seeder.php"
+
+    }
+}
