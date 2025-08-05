@@ -1,5 +1,5 @@
 {
-    "name": "mgdigi/ges-employer",
+    "name": "mhddigi/woyofall",
     "autoload": {
         "psr-4": {
             "App\\Entity\\": "src/entity/",
@@ -23,5 +23,6 @@
       "database:migrate": "php migrations/Migration.php",
       "database:seed": "php seeders/Seeder.php"
 
-    }
+    },
+    "type" : "project"
 }
